@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="100 275 600 420">
+<g transform='rotate(8 400 450)'>
+<rect x='140' y='342' width='540' height='250' rx='10' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='130' y='330' width='540' height='250' rx='10' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='130' y='330' width='540' height='52' rx='10' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><rect x='130' y='540' width='540' height='40' rx='10' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x='330' y='366' text-anchor='middle' font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='800' font-size='22' letter-spacing='4' fill='#000'>THE BARROW GROUP</text>
+<path d='M530 382 V540' stroke='#000' stroke-width='4' stroke-dasharray='10 10'/>
+<g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='800' fill='#000' text-anchor='middle'><text x='330' y='450' font-size='44' letter-spacing='3'>ADMIT ONE</text><text x='330' y='496' font-size='24' letter-spacing='4'>ONE ACTING CLASS</text><text x='600' y='470' font-size='20' letter-spacing='3' transform='rotate(-90 600 462)'>TBG</text></g>
+</g>
+<g transform='translate(560 610) rotate(-12)'><circle r='66' fill='#E0A92E' stroke='#000' stroke-width='4' transform='translate(5 5)'/><circle r='66' fill='#FACF5A' stroke='#000' stroke-width='4'/><path d='M-34 -18 q12 -14 24 0 M10 -18 q12 -14 24 0' fill='none' stroke='#000' stroke-width='6' stroke-linecap='round'/><path d='M-34 14 q34 40 68 0 Z' fill='#B23E3E' stroke='#000' stroke-width='4' stroke-linejoin='round'/><circle cx='-26' cy='-34' r='6' fill='#fff'/></g>
+</svg>

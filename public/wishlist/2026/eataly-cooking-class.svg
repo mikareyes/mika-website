@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="464" height="464" viewBox="172 172 464 464">
+<circle cx='408' cy='408' r='220' fill='#E0A92E' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx='400' cy='400' r='220' fill='#FACF5A' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx='400' cy='400' r='182' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx='300' cy='300' rx='40' ry='28' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(20 300 300)'/>
+<ellipse cx='470' cy='280' rx='46' ry='30' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(-15 470 280)'/>
+<ellipse cx='520' cy='420' rx='40' ry='26' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(30 520 420)'/>
+<ellipse cx='450' cy='520' rx='44' ry='30' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(10 450 520)'/>
+<ellipse cx='310' cy='500' rx='42' ry='28' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(-25 310 500)'/>
+<ellipse cx='260' cy='400' rx='36' ry='26' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(40 260 400)'/>
+<ellipse cx='390' cy='250' rx='30' ry='22' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(0 390 250)'/>
+<ellipse cx='380' cy='560' rx='34' ry='22' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(15 380 560)'/>
+<path d='M318 330 Q340 308 362 330 Q340 352 318 330 Z' fill='#6FD098' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(-30 340 330)'/><path d='M322 330 H358' stroke='#47AE73' stroke-width='3' transform='rotate(-30 340 330)'/>
+<path d='M498 350 Q520 328 542 350 Q520 372 498 350 Z' fill='#6FD098' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(25 520 350)'/><path d='M502 350 H538' stroke='#47AE73' stroke-width='3' transform='rotate(25 520 350)'/>
+<path d='M308 560 Q330 538 352 560 Q330 582 308 560 Z' fill='#6FD098' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(40 330 560)'/><path d='M312 560 H348' stroke='#47AE73' stroke-width='3' transform='rotate(40 330 560)'/>
+<path d='M478 560 Q500 538 522 560 Q500 582 478 560 Z' fill='#6FD098' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(-20 500 560)'/><path d='M482 560 H518' stroke='#47AE73' stroke-width='3' transform='rotate(-20 500 560)'/>
+<path d='M233 450 Q255 428 277 450 Q255 472 233 450 Z' fill='#6FD098' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(10 255 450)'/><path d='M237 450 H273' stroke='#47AE73' stroke-width='3' transform='rotate(10 255 450)'/>
+<rect x='292' y='366' width='216' height='68' rx='8' fill='#6FD098' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x='400' y='413' text-anchor='middle' font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='900' font-size='40' letter-spacing='4' fill='#000'>EATALY</text>
+<path d='M240 300 q30 -60 90 -86' fill='none' stroke='#fff' stroke-width='10' stroke-linecap='round'/>
+</svg>
