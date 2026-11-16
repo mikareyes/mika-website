@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="530" height="460" viewBox="180 200 530 460">
+<g transform='rotate(-6 390 330)'>
+<rect x='200' y='220' width='380' height='230' rx='16' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='translate(10 10)'/><rect x='200' y='220' width='380' height='230' rx='16' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x='390' y='300' text-anchor='middle' font-family="Didot, Bodoni 72, Georgia, Times New Roman, serif" font-size='44' letter-spacing='8' fill='#000'>DANZNIK</text>
+<path d='M280 320 H500' stroke='#B23E3E' stroke-width='4'/>
+<text x='390' y='354' text-anchor='middle' font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='800' font-size='17' letter-spacing='5' fill='#B23E3E'>BALLROOM · GIFT CARD</text>
+</g>
+<g transform='translate(186 352)'>
+<path d='M180 130 L205 124 C205 190 202 240 200 290 L190 290 C188 240 184 190 180 130 Z' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='186' y='284' width='18' height='10' rx='2' fill='#2F2C29' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d='M168 120 C166 82 184 62 212 60 L210 118 Z' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d='M8 284 C30 290 70 290 95 270 C130 240 155 170 170 120 L208 112 L208 126 L180 132 C164 182 140 252 104 284 C78 304 34 302 8 294 Z' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d='M26 286 C38 256 66 244 96 254' fill='none' stroke='#000' stroke-width='16' stroke-linecap='round'/><path d='M26 286 C38 256 66 244 96 254' fill='none' stroke='#D9CFC2' stroke-width='9' stroke-linecap='round'/>
+<path d='M70 282 C84 236 120 210 150 222' fill='none' stroke='#000' stroke-width='16' stroke-linecap='round'/><path d='M70 282 C84 236 120 210 150 222' fill='none' stroke='#D9CFC2' stroke-width='9' stroke-linecap='round'/>
+<path d='M48 264 C100 222 140 150 186 74' fill='none' stroke='#000' stroke-width='16' stroke-linecap='round'/><path d='M48 264 C100 222 140 150 186 74' fill='none' stroke='#D9CFC2' stroke-width='9' stroke-linecap='round'/>
+<path d='M138 244 C116 196 112 140 152 92' fill='none' stroke='#000' stroke-width='16' stroke-linecap='round'/><path d='M138 244 C116 196 112 140 152 92' fill='none' stroke='#D9CFC2' stroke-width='9' stroke-linecap='round'/>
+<path d='M150 90 C170 66 196 58 216 62' fill='none' stroke='#000' stroke-width='16' stroke-linecap='round'/><path d='M150 90 C170 66 196 58 216 62' fill='none' stroke='#D9CFC2' stroke-width='9' stroke-linecap='round'/>
+<rect x='196' y='52' width='16' height='16' rx='3' fill='#FACF5A' stroke='#000' stroke-width='3'/>
+</g>
+<g transform='translate(412 452)'>
+<path d='M10 60 C10 28 42 18 72 28 L122 48 C162 60 204 70 242 98 C276 120 296 140 292 160 L10 160 Z' fill='#2F2C29' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d='M6 158 H294 C294 170 286 176 272 176 H74 V190 H14 V176 C8 176 6 168 6 158 Z' fill='#1C1A18' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d='M72 28 C88 62 102 82 136 94' fill='none' stroke='#000' stroke-width='3'/><path d='M206 76 C222 104 230 136 226 158' fill='none' stroke='#000' stroke-width='3'/>
+<circle cx='92' cy='48' r='3.5' fill='#FBF8F5'/><circle cx='112' cy='40' r='3.5' fill='#FBF8F5'/><path d='M92 48 L112 40' stroke='#FBF8F5' stroke-width='2.5'/>
+<circle cx='106' cy='58' r='3.5' fill='#FBF8F5'/><circle cx='126' cy='50' r='3.5' fill='#FBF8F5'/><path d='M106 58 L126 50' stroke='#FBF8F5' stroke-width='2.5'/>
+<circle cx='120' cy='68' r='3.5' fill='#FBF8F5'/><circle cx='140' cy='60' r='3.5' fill='#FBF8F5'/><path d='M120 68 L140 60' stroke='#FBF8F5' stroke-width='2.5'/>
+<circle cx='134' cy='78' r='3.5' fill='#FBF8F5'/><circle cx='154' cy='70' r='3.5' fill='#FBF8F5'/><path d='M134 78 L154 70' stroke='#FBF8F5' stroke-width='2.5'/>
+<path d='M236 112 q24 12 36 32' fill='none' stroke='#fff' stroke-width='7' stroke-linecap='round'/>
+</g>
+</svg>

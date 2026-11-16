@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="460" viewBox="110 268 580 460">
+<path d='M330 700 h140 l-30 -110 h-80 Z' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx='400' cy='700' rx='110' ry='22' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx='400' cy='585' rx='280' ry='52' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx='400' cy='572' rx='280' ry='52' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d='M170 330 V540 A230 55 0 0 0 630 540 V330 Z' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d='M170 352 A230 55 0 0 0 630 352' fill='none' stroke='#6FD098' stroke-width='5'/>
+<path d='M170 374 A230 55 0 0 0 630 374' fill='none' stroke='#6FD098' stroke-width='5'/>
+<path d='M170 396 A230 55 0 0 0 630 396' fill='none' stroke='#6FD098' stroke-width='5'/>
+<path d='M170 418 A230 55 0 0 0 630 418' fill='none' stroke='#6FD098' stroke-width='5'/>
+<path d='M170 440 A230 55 0 0 0 630 440' fill='none' stroke='#6FD098' stroke-width='5'/>
+<path d='M170 462 A230 55 0 0 0 630 462' fill='none' stroke='#6FD098' stroke-width='5'/>
+<path d='M170 484 A230 55 0 0 0 630 484' fill='none' stroke='#6FD098' stroke-width='5'/>
+<path d='M170 506 A230 55 0 0 0 630 506' fill='none' stroke='#6FD098' stroke-width='5'/>
+<path d='M170 528 A230 55 0 0 0 630 528' fill='none' stroke='#6FD098' stroke-width='5'/>
+
+<ellipse cx='400' cy='330' rx='230' ry='55' fill='#6FD098' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx='230' cy='330' r='6' fill='#47AE73' stroke='#000' stroke-width='2'/>
+<circle cx='260' cy='312' r='6' fill='#47AE73' stroke='#000' stroke-width='2'/>
+<circle cx='280' cy='350' r='6' fill='#47AE73' stroke='#000' stroke-width='2'/>
+<circle cx='520' cy='312' r='6' fill='#47AE73' stroke='#000' stroke-width='2'/>
+<circle cx='545' cy='340' r='6' fill='#47AE73' stroke='#000' stroke-width='2'/>
+<circle cx='570' cy='325' r='6' fill='#47AE73' stroke='#000' stroke-width='2'/>
+<circle cx='330' cy='362' r='6' fill='#47AE73' stroke='#000' stroke-width='2'/>
+<circle cx='470' cy='362' r='6' fill='#47AE73' stroke='#000' stroke-width='2'/>
+<circle cx='330' cy='298' r='6' fill='#47AE73' stroke='#000' stroke-width='2'/>
+<circle cx='470' cy='298' r='6' fill='#47AE73' stroke='#000' stroke-width='2'/>
+<ellipse cx='400' cy='334' rx='92' ry='28' fill='#1C1A18' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx='400' cy='330' rx='92' ry='28' fill='#2F2C29' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x='400' y='340' text-anchor='middle' font-family="Didot, Bodoni 72, Georgia, Times New Roman, serif" font-size='30' letter-spacing='5' fill='#FBF8F5'>LADY M</text>
+</svg>

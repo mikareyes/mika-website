@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="495" viewBox="100 222 600 495">
+<ellipse cx='400' cy='640' rx='290' ry='70' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx='400' cy='625' rx='290' ry='70' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d='M150 360 V580 A250 62 0 0 0 650 580 V360 Z' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d='M150 385 A250 62 0 0 0 650 385' fill='none' stroke='#6FD098' stroke-width='7'/>
+<path d='M150 410 A250 62 0 0 0 650 410' fill='none' stroke='#6FD098' stroke-width='7'/>
+<path d='M150 435 A250 62 0 0 0 650 435' fill='none' stroke='#6FD098' stroke-width='7'/>
+<path d='M150 460 A250 62 0 0 0 650 460' fill='none' stroke='#6FD098' stroke-width='7'/>
+<path d='M150 485 A250 62 0 0 0 650 485' fill='none' stroke='#6FD098' stroke-width='7'/>
+<path d='M150 510 A250 62 0 0 0 650 510' fill='none' stroke='#6FD098' stroke-width='7'/>
+<path d='M150 535 A250 62 0 0 0 650 535' fill='none' stroke='#6FD098' stroke-width='7'/>
+<path d='M150 560 A250 62 0 0 0 650 560' fill='none' stroke='#6FD098' stroke-width='7'/>
+<path d='M150 360 V580 A250 62 0 0 0 650 580 V360' fill='none' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx='400' cy='360' rx='250' ry='62' fill='#6FD098' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx='330' cy='348' r='5' fill='#47AE73'/>
+<circle cx='360' cy='372' r='5' fill='#47AE73'/>
+<circle cx='440' cy='344' r='5' fill='#47AE73'/>
+<circle cx='470' cy='370' r='5' fill='#47AE73'/>
+<circle cx='400' cy='330' r='5' fill='#47AE73'/>
+<circle cx='400' cy='390' r='5' fill='#47AE73'/>
+<circle cx='300' cy='366' r='5' fill='#47AE73'/>
+<circle cx='500' cy='352' r='5' fill='#47AE73'/>
+
+
+
+
+
+<circle cx='229' cy='337' r='22' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><circle cx='222' cy='329' r='5' fill='#fff'/><circle cx='314' cy='322' r='22' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><circle cx='307' cy='314' r='5' fill='#fff'/><circle cx='400' cy='318' r='22' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><circle cx='393' cy='310' r='5' fill='#fff'/><circle cx='486' cy='322' r='22' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><circle cx='479' cy='314' r='5' fill='#fff'/><circle cx='571' cy='337' r='22' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><circle cx='564' cy='329' r='5' fill='#fff'/><path d='M400 362 V232' fill='none' stroke='#000' stroke-width='6' stroke-linecap='round'/>
+<path d='M400 232 H612 L588 262 L612 292 H400 Z' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x='496' y='271' text-anchor='middle' font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='800' font-size='22' letter-spacing='2' fill='#B23E3E'>LADY WONG</text>
+
+
+
+
+
+
+
+<circle cx='571' cy='383' r='22' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><circle cx='564' cy='375' r='5' fill='#fff'/><circle cx='486' cy='398' r='22' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><circle cx='479' cy='390' r='5' fill='#fff'/><circle cx='400' cy='402' r='22' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><circle cx='393' cy='394' r='5' fill='#fff'/><circle cx='314' cy='398' r='22' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><circle cx='307' cy='390' r='5' fill='#fff'/><circle cx='229' cy='383' r='22' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><circle cx='222' cy='375' r='5' fill='#fff'/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="175 210 500 500">
+<g transform='rotate(12 450 425)'>
+<rect x='352' y='262' width='220' height='350' rx='30' fill='#2E9C96' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='340' y='250' width='220' height='350' rx='30' fill='#49BEB7' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x='450' y='330' text-anchor='middle' font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='800' font-size='30' letter-spacing='4' fill='#000'>ANKER</text>
+<circle cx='405' cy='540' r='7' fill='#FBF8F5' stroke='#000' stroke-width='3'/>
+<circle cx='435' cy='540' r='7' fill='#FBF8F5' stroke='#000' stroke-width='3'/>
+<circle cx='465' cy='540' r='7' fill='#FBF8F5' stroke='#000' stroke-width='3'/>
+<circle cx='495' cy='540' r='7' fill='#FBF8F5' stroke='#000' stroke-width='3'/>
+
+</g>
+<path d='M362 590 C430 660 560 660 560 610 C560 570 500 570 510 620 C520 670 610 690 640 650' fill='none' stroke='#000' stroke-width='18' stroke-linecap='round'/>
+<path d='M362 590 C430 660 560 660 560 610 C560 570 500 570 510 620 C520 670 610 690 640 650' fill='none' stroke='#2F2C29' stroke-width='10' stroke-linecap='round'/>
+<rect x='628' y='610' width='26' height='44' rx='6' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(-35 641 632)'/>
+<rect x='280' y='336' width='14' height='46' rx='3' fill='#2F2C29' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><rect x='318' y='336' width='14' height='46' rx='3' fill='#2F2C29' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+
+<rect x='222' y='378' width='160' height='200' rx='30' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='200' y='400' width='160' height='200' rx='30' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x='280' y='440' text-anchor='middle' font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='800' font-size='24' letter-spacing='3' fill='#000'>ANKER</text>
+<rect x='242' y='462' width='76' height='18' rx='9' fill='#2F2C29' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><rect x='242' y='500' width='76' height='18' rx='9' fill='#2F2C29' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><rect x='246' y='538' width='68' height='24' rx='3' fill='#2F2C29' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

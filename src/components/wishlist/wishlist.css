@@ -1,0 +1,241 @@
+/* /wishlist/<year>. Tokens only (DESIGN.md); every class is prefixed wl-. */
+
+.wl-root {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: var(--mr-linen);
+  color: var(--mr-ink);
+  font-family: var(--mr-font-body);
+}
+
+/* Top bar ------------------------------------------------------------ */
+
+.wl-bar {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding: 16px 16px 0;
+  pointer-events: none;
+}
+.wl-bar a { pointer-events: auto; }
+.wl-hint,
+.wl-count {
+  margin: 0;
+  font-size: var(--mr-text-xs);
+  font-variant-numeric: tabular-nums;
+}
+.wl-hint { color: var(--mr-ink); font-weight: 600; }
+.wl-count { color: var(--mr-muted); text-align: right; }
+.wl-year { color: var(--mr-ink); font-weight: 600; margin-right: 6px; }
+
+@media (min-width: 768px) {
+  .wl-bar { padding: 20px 40px 0; }
+  .wl-hint, .wl-count { font-size: var(--mr-text-sm); }
+}
+
+/* Title: two lines, each fitted to the width by the component ---------- */
+
+.wl-hero {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  margin: 0;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--mr-font-display);
+  font-weight: var(--mr-weight-display);
+  letter-spacing: var(--mr-track-h1);
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: var(--mr-ink);
+  user-select: none;
+}
+.wl-hero-line { display: inline-block; white-space: nowrap; font-size: 15vw; }
+
+@media (min-width: 768px) {
+  .wl-hero { padding: 0 40px; }
+}
+
+/* The pile ----------------------------------------------------------- */
+
+.wl-pile {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  touch-action: none;
+}
+.wl-pile.is-hover { cursor: grab; }
+.wl-pile.is-dragging { cursor: grabbing; }
+
+.wl-gift {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  visibility: hidden;
+  transform-origin: center;
+  will-change: transform;
+  cursor: inherit;
+}
+.wl-gift img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+.wl-gift:focus-visible {
+  outline: 3px solid var(--mr-ink);
+  outline-offset: 4px;
+  border-radius: var(--mr-radius-card);
+}
+.wl-gift.is-taken img { opacity: 0.45; filter: grayscale(0.6); }
+
+/* "Claimed" stamp: paper, red-deep type, slightly rotated, like a rubber stamp */
+.wl-stamp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-12deg);
+  padding: 4px 10px;
+  background: var(--mr-paper);
+  border: 2px solid var(--mr-red-deep);
+  border-radius: var(--mr-radius-chip);
+  color: var(--mr-red-deep);
+  font-family: var(--mr-font-display);
+  font-weight: var(--mr-weight-display);
+  font-size: clamp(14px, 2.2vw, 22px);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.wl-stamp-big { font-size: clamp(22px, 4vw, 40px); padding: 8px 18px; border-width: 3px; }
+
+.wl-rain {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 2;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .wl-rain { right: 40px; bottom: 24px; }
+}
+
+/* Detail view -------------------------------------------------------- */
+
+.wl-detail {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  overflow-y: auto;
+  background: var(--mr-linen);
+  padding-bottom: 48px;
+  outline: none;
+}
+.wl-detail[hidden] { display: none; }
+.wl-detail-bar { position: sticky; top: 0; background: var(--mr-linen); padding-bottom: 12px; }
+.wl-back {
+  color: var(--mr-ink);
+  font-weight: 600;
+  font-size: var(--mr-text-sm);
+  text-decoration: none;
+}
+.wl-back:hover { text-decoration: underline; }
+
+.wl-detail-grid {
+  display: grid;
+  gap: 28px;
+  max-width: 1200px;
+  margin: 8px auto 0;
+  padding: 0 16px;
+}
+@media (min-width: 768px) {
+  .wl-detail-grid {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 56px;
+    padding: 0 40px;
+    min-height: calc(100dvh - 120px);
+  }
+}
+
+/* The art sits on a Specimen-style ground: accent fill, faint dot grid, ink hairline */
+.wl-art {
+  position: relative;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--mr-ink);
+  border-radius: var(--mr-radius-panel);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22'%3E%3Ccircle cx='11' cy='11' r='1.4' fill='%23000' fill-opacity='.16'/%3E%3C/svg%3E");
+}
+.wl-ground-yellow { background-color: var(--mr-yellow); }
+.wl-ground-aqua { background-color: var(--mr-aqua); }
+.wl-ground-green { background-color: var(--mr-green); }
+.wl-art img { width: 82%; height: 82%; object-fit: contain; }
+
+.wl-name {
+  margin: 0;
+  font-size: clamp(36px, 5.4vw, var(--mr-text-h1));
+  line-height: 1;
+}
+.wl-blurb {
+  margin: 20px 0 0;
+  max-width: 34em;
+  font-size: var(--mr-text-body);
+  line-height: 1.5;
+  color: var(--mr-charcoal);
+}
+.wl-blurb a { color: var(--mr-red-deep); }
+.wl-bonus {
+  display: inline-block;
+  margin: 16px 0 0;
+  padding: 6px 12px;
+  background: var(--mr-yellow);
+  border-radius: var(--mr-radius-chip);
+  color: var(--mr-ink);
+  font-size: var(--mr-text-sm);
+  font-weight: 600;
+}
+.wl-price {
+  margin: 24px 0 0;
+  font-family: var(--mr-font-display);
+  font-weight: var(--mr-weight-display);
+  font-size: var(--mr-text-h3);
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.wl-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 24px;
+}
+.wl-actions button { cursor: pointer; }
+.wl-actions button:disabled { opacity: 0.6; cursor: progress; }
+.wl-note { margin: 0; font-size: var(--mr-text-sm); color: var(--mr-muted); }
+.wl-msg { margin: 0; min-height: 1.5em; font-size: var(--mr-text-sm); font-weight: 600; }
+.wl-msg.is-error { color: var(--mr-red-deep); }
+.wl-undo {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--mr-muted);
+  font: inherit;
+  font-size: var(--mr-text-sm);
+  text-decoration: underline;
+}

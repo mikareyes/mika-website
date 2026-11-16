@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="500" viewBox="222 182 360 500">
+<defs><path id='bezel' d='M262 428 A138 138 0 0 1 538 428'/></defs>
+<path d='M330 300 C300 230 320 200 360 190 L440 190 C480 200 500 230 470 300 Z' fill='#2F2C29' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d='M330 560 C300 630 320 660 360 670 L440 670 C480 660 500 630 470 560 Z' fill='#2F2C29' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx='392' cy='610' r='7' fill='#1C1A18' stroke='#000' stroke-width='2'/>
+<circle cx='392' cy='640' r='7' fill='#1C1A18' stroke='#000' stroke-width='2'/>
+<circle cx='392' cy='670' r='7' fill='#1C1A18' stroke='#000' stroke-width='2'/>
+
+<rect x='536' y='354' width='24' height='32' rx='6' fill='#1C1A18' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='536' y='454' width='24' height='32' rx='6' fill='#1C1A18' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='240' y='344' width='24' height='32' rx='6' fill='#1C1A18' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='240' y='414' width='24' height='32' rx='6' fill='#1C1A18' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='240' y='484' width='24' height='32' rx='6' fill='#1C1A18' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx='400' cy='436' r='160' fill='#1C1A18' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><circle cx='400' cy='428' r='160' fill='#2F2C29' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='800' font-size='22' letter-spacing='4' fill='#FBF8F5'><textPath href='#bezel' startOffset='50%' text-anchor='middle'>GARMIN</textPath></text>
+
+<circle cx='400' cy='436' r='122' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x='400' y='450' text-anchor='middle' font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='700' font-size='66' fill='#000'>10:10</text>
+<text x='400' y='494' text-anchor='middle' font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='700' font-size='18' letter-spacing='1' fill='#B23E3E'>FORERUNNER 570</text>
+<path d='M326 362 q20 -26 56 -34' fill='none' stroke='#fff' stroke-width='10' stroke-linecap='round'/>
+</svg>

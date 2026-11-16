@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="380" viewBox="150 220 500 380">
+<g transform='rotate(6 400 410)'>
+<rect x='190' y='262' width='420' height='290' rx='18' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='translate(10 10)'/><rect x='190' y='262' width='420' height='290' rx='18' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='230' y='290' width='340' height='170' rx='6' fill='#2F2C29' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d='M400 300 L340 455 H460 Z' fill='#FACF5A' opacity='.35'/>
+<text x='400' y='412' text-anchor='middle' font-size='44' fill='#FACF5A'>✦</text>
+<path d='M230 290 H330 C320 360 300 420 310 460 H230 Z' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d='M570 290 H470 C480 360 500 420 490 460 H570 Z' fill='#FF5959' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d='M255 296 C251 360 247 420 249 456' fill='none' stroke='#B23E3E' stroke-width='5'/>
+<path d='M280 296 C276 360 272 420 274 456' fill='none' stroke='#B23E3E' stroke-width='5'/>
+<path d='M305 296 C301 360 297 420 299 456' fill='none' stroke='#B23E3E' stroke-width='5'/>
+<path d='M545 296 C549 360 553 420 551 456' fill='none' stroke='#B23E3E' stroke-width='5'/>
+<path d='M520 296 C524 360 528 420 526 456' fill='none' stroke='#B23E3E' stroke-width='5'/>
+<path d='M495 296 C499 360 503 420 501 456' fill='none' stroke='#B23E3E' stroke-width='5'/>
+<path d='M230 290 H570 V318 Q400 338 230 318 Z' fill='#B23E3E' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x='400' y='515' text-anchor='middle' font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='900' font-size='42' fill='#000'>TodayTix</text>
+</g>
+</svg>

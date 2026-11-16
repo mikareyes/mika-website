@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="390" viewBox="240 258 320 390">
+<ellipse cx='400' cy='216' rx='34' ry='12' fill='#FACF5A' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" transform='rotate(-20 400 216)'/>
+
+<rect x='270' y='300' width='260' height='330' rx='44' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx='330' cy='604' rx='40' ry='13' fill='#E0A92E' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx='330' cy='598' rx='40' ry='13' fill='#FACF5A' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx='400' cy='610' rx='40' ry='13' fill='#E0A92E' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx='400' cy='604' rx='40' ry='13' fill='#FACF5A' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx='470' cy='604' rx='40' ry='13' fill='#E0A92E' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx='470' cy='598' rx='40' ry='13' fill='#FACF5A' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx='360' cy='580' rx='40' ry='13' fill='#E0A92E' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx='360' cy='574' rx='40' ry='13' fill='#FACF5A' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx='440' cy='580' rx='40' ry='13' fill='#E0A92E' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx='440' cy='574' rx='40' ry='13' fill='#FACF5A' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx='400' cy='554' rx='40' ry='13' fill='#E0A92E' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx='400' cy='548' rx='40' ry='13' fill='#FACF5A' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx='330' cy='558' rx='40' ry='13' fill='#E0A92E' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx='330' cy='552' rx='40' ry='13' fill='#FACF5A' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx='470' cy='562' rx='40' ry='13' fill='#E0A92E' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx='470' cy='556' rx='40' ry='13' fill='#FACF5A' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='298' y='390' width='204' height='96' rx='6' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x='400' y='440' text-anchor='middle' font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='800' font-size='38' fill='#000'>GiveWell</text>
+<text x='400' y='470' text-anchor='middle' font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='700' font-size='15' letter-spacing='2' fill='#B23E3E'>TOP CHARITIES</text>
+<path d='M292 360 V430' stroke='#fff' stroke-width='10' stroke-linecap='round'/>
+<rect x='280' y='266' width='240' height='44' rx='10' fill='#2F2C29' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><rect x='360' y='280' width='80' height='12' rx='6' fill='#1C1A18' stroke='#000' stroke-width='3'/>
+</svg>
