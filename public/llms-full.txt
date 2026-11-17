@@ -8,6 +8,7 @@ For the site overview and other sections, see [llms.txt](https://mikareyes.com/l
 
 ## All guides
 
+- [How to Make an AI Website Not Look AI-Generated](https://mikareyes.com/ai/how-to-make-ai-website-not-look-ai-generated): Make an AI website not look AI-generated: spot the tells, then use Impeccable, Taste, Refero, and ThreeUI to detect, prevent, and replace generic AI design.
 - [AEO and SEO Glossary: 44 Search Terms for Beginners](https://mikareyes.com/ai/aeo-seo-glossary): AEO and SEO glossary for beginners: 44 search terms, from backlinks and indexing to llms.txt and AI Overviews, each defined in plain English.
 - [How to Create an Interactive 3D Website with AI](https://mikareyes.com/ai/how-to-create-interactive-3d-website-with-ai): Create an interactive 3D website element with AI: start from a 3D component, rebuild it in your brand with Claude Code, and refine it with plain feedback.
 - [How to Create Bulk Ad Voiceovers with Claude and Fish Audio](https://mikareyes.com/ai/how-to-create-bulk-ad-voiceovers-claude-fish-audio): Create bulk ad voiceovers with Claude and Fish Audio: 20 ad reads in about an hour, with emotion tags, generated from one Claude chat. No mic or studio.

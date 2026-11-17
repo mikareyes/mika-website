@@ -1,0 +1,91 @@
+---
+title: How to Make an AI Website Not Look AI-Generated
+description: >-
+  Make an AI website not look AI-generated: spot the tells, then use Impeccable,
+  Taste, Refero, and ThreeUI to detect, prevent, and replace generic AI design.
+tags:
+  - beginner
+  - skills
+  - claude
+published: "2026-11-17"
+updated: "2026-11-17"
+faq:
+  - question: >-
+      How do I make my AI-generated website not look AI-made?
+    answer: >-
+      Remove the default AI design tells first, then give the site a style of
+      its own. Run the Impeccable skill to find and clean up slop like beige
+      backgrounds and italic serif headlines, install the Taste skill so your
+      agent stops producing it, and borrow a real style from Refero.
+  - question: >-
+      What's the difference between Impeccable and the Taste skill?
+    answer: >-
+      Impeccable fixes a site that already exists by checking it for AI design
+      tells and removing them. Taste works before anything gets built, steering
+      your coding agent away from generic frontends from the start. Use
+      Impeccable on what you have and Taste for everything you build next.
+  - question: >-
+      Do I need to be a developer to use these tools?
+    answer: >-
+      No. All four work through a coding agent like Claude Code, so you install
+      them with a single command and then ask for changes in plain English. I
+      run two companies' websites this way with no developer on the team.
+  - question: >-
+      Are Impeccable, Taste, Refero, and ThreeUI free?
+    answer: >-
+      Impeccable and Taste are free, open-source skills. ThreeUI offers more
+      than 160 components for free, and Refero lets you browse its style
+      library and the design.md behind each style.
+---
+
+People can tell when a website was made with AI, and it makes your brand look cheap. The fix takes four tools: one finds the AI slop on the site you already have, one stops your coding agent from writing more, one gives you a better style to copy, and one adds a moment people remember.
+
+Every site I ship is built with AI. We're a 2-person company with no developer, and that includes mikareyes.com and tryadeli.com. AI made shipping fast. The catch is that a coding agent left to its defaults builds the same website as everyone else. These are the four fixes that keep my sites from looking like that.
+
+## What does an AI-generated website look like?
+
+AI-generated websites repeat the same handful of design defaults, and once you know them you'll see them everywhere. The usual tells are a beige background, a big serif headline with one word in italics, a small all-caps label above the headline (called a "kicker"), and a colored stripe down one side of a card.
+
+![Before and after comparison of an AI-generated website card, with labels pointing to the AI kicker, italic serif headline, side-tab border, and AI beige background](/ai-guides/how-to-make-ai-website-not-look-ai-generated-ai-slop-tells.png "Left: the default AI look. Right: the same card with the tells removed.")
+
+None of these are bad on their own. The problem is that every AI tool reaches for them, so when they all show up together, visitors know a machine designed your site. For the same problem in graphics, see [How to Spot AI-Made Graphic Design and Posters](/ai/how-to-spot-ai-made-graphic-design-and-posters).
+
+## How do you fix a website that already looks AI-made?
+
+Run the slop out of the site you have, then stop new slop from getting written. Do those two first, because a better style or a 3D hero won't help if the AI defaults are still underneath.
+
+### Fix what's already there
+
+**1. Run Impeccable to find and remove the AI slop.** Impeccable is a free skill for your coding agent. A skill is a set of instructions your agent loads when a task calls for it ([more on skills here](/ai/what-is-a-skill)). It runs 61 checks for the defaults agents keep reaching for, like cards nested inside cards, identical icon tiles, and pulsing "AI is thinking" dots. Install it with `npx impeccable install`, run `/impeccable init` once, then point it at your site with `/impeccable audit`. It flags every tell and cleans them out.
+
+![The Impeccable homepage reading Detects and removes AI slop, with labeled examples of AI design tells like soft rounded cards, eyebrow chips, cards in cards, and numbered section labels](/ai-guides/how-to-make-ai-website-not-look-ai-generated-impeccable.png "Impeccable runs 61 checks for the defaults AI agents keep reaching for.")
+
+**2. Install the Taste skill so the slop never gets written.** Impeccable cleans up after the fact. Taste works before anything gets built: it's a set of open-source skill files that stops Claude Code, Cursor, Codex, Lovable, v0, and others from producing generic frontends. Install it with one command, `npx skills add Leonxlnx/taste-skill`, and every page your agent builds after that starts from a better baseline. New to running commands? Start with [How to Setup Claude Code](/ai/how-to-setup-claude-code).
+
+![The Taste Skill homepage describing it as the anti-slop frontend framework for AI agents, with the install command npx skills add Leonxlnx/taste-skill](/ai-guides/how-to-make-ai-website-not-look-ai-generated-taste-skill.png "Taste sits over your coding agent so generic designs don't get built in the first place.")
+
+> **Key insight:** Removing the slop only gets you back to neutral. To look expensive, your site needs a style of its own.
+
+### Give it a look worth copying
+
+**3. Borrow a real style from Refero.** [Refero](https://refero.design/) is a library of real websites, from Apple to Mercury, each with a design.md file you can hand your coding agent. A design.md is a plain text file that lists a site's exact colors, fonts, and spacing. Instead of describing a vibe, you give your agent the actual styles behind a site that looks expensive, and then make it yours. I wrote the full walkthrough in [How to Make Your Website Look Expensive with AI](/ai/how-to-make-your-website-look-expensive-with-ai).
+
+![The Refero Styles library showing website styles from Apple, Origin Financial, Letters, Ui, Modal, and Mercury, each with a one-line style description](/ai-guides/how-to-make-ai-website-not-look-ai-generated-refero-styles.png "Refero's style library. Each one comes with a design.md your agent can follow.")
+
+**4. Add one ThreeUI component people remember.** [ThreeUI](https://threeui.com) is Meng To's free library of more than 160 3D components and landing pages, built with three.js, a code library for 3D graphics in the browser. You copy the prompt or source code, give it to your agent, and change the theme, lighting, and motion to match your brand. It's the one I'd open first. Use just one 3D moment, usually the hero, so it stands out instead of cluttering the page. Here's the full build: [How to Create an Interactive 3D Website with AI](/ai/how-to-create-interactive-3d-website-with-ai).
+
+![Meng To's post announcing ThreeUI as an open-source library of more than 160 free three.js components, with a 3D Japanese temple scene under a red moon](/ai-guides/how-to-make-ai-website-not-look-ai-generated-threeui.png "ThreeUI by Meng To: 160+ free 3D components you can hand to your coding agent.")
+
+## In what order should you use these?
+
+Go in this order: **detect, prevent, restyle, add the wow moment.** Impeccable cleans the site you have. Taste keeps it clean as you build more. Refero gives it an identity, and ThreeUI gives people something to remember. If you only have an hour, run Impeccable and install Taste, because those two remove the tells visitors notice first. For more ways to push AI design past its defaults, see [8 AI Design Techniques to Break Safe Mode](/ai/8-ai-design-techniques-to-break-safe-mode).
+
+## Additional reading
+
+Here are some related guides to check out:
+
+1. [How to Make Your Website Look Expensive with AI](/ai/how-to-make-your-website-look-expensive-with-ai)
+2. [How to Create an Interactive 3D Website with AI](/ai/how-to-create-interactive-3d-website-with-ai)
+3. [8 AI Design Techniques to Break Safe Mode](/ai/8-ai-design-techniques-to-break-safe-mode)
+4. [How to Create a BRAND.md File for AI Design](/ai/how-to-create-a-brand-md-file)
+5. [How to Install Free Marketing Skills for Claude](/ai/how-to-install-free-marketing-skills-claude)
