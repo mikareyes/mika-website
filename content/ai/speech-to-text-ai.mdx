@@ -1,0 +1,148 @@
+---
+title: "Speech to Text AI: Dictation, Transcription, and APIs"
+description: >-
+  Speech to text AI comes in three kinds: dictation, transcription, and
+  developer APIs. Here is which one you need, plus how I dictate prompts to
+  Claude.
+tags:
+  - beginner
+published: "2026-11-19"
+updated: "2026-11-19"
+faq:
+  - question: >-
+      What's the difference between dictation and transcription?
+    answer: >-
+      Dictation turns your voice into text live, in whatever app your cursor
+      is in, so you can write by talking. Transcription takes a finished
+      recording, like a meeting or interview, and turns it into a searchable
+      transcript. Different jobs, different tools.
+  - question: >-
+      Is there a free speech to text AI?
+    answer: >-
+      Yes. Apple Dictation on Mac, Windows voice typing (Windows key + H),
+      and Google Docs Voice Typing are free and built in. Wispr Flow,
+      Superwhisper, Otter, and Fathom also have free plans with limits, so
+      check each one's current limits before relying on it.
+  - question: >-
+      Is speaking really faster than typing?
+    answer: >-
+      Yes, for first drafts. A Stanford-led study measured about 153 words
+      per minute by speech versus 52 by typing on a phone keyboard, though
+      that was a phone test in lab conditions. I measure it on my own
+      desktop: Wispr Flow is about 3x faster than my keyboard.
+  - question: >-
+      Can speech to text AI work offline and stay private?
+    answer: >-
+      Some can. Superwhisper runs local models on your Mac, and OpenAI's
+      open-source Whisper model can run on your own computer. Most dictation
+      apps send audio to the cloud, so read each tool's data and training
+      settings before dictating anything sensitive.
+---
+
+Speech to text AI is software that turns your voice into written words, and there are three different kinds: dictation (talk instead of type), transcription (turn a recording into text), and developer APIs (the engines other apps are built on). Most people searching this want the first one, and that is the one that changes your day.
+
+I dictate most of what I write to AI. I use Wispr Flow, and it is about 3x faster than my keyboard. Below: which kind you need, my dictation setup, and where dictation breaks.
+
+Some links on this page are personal referral links, including Wispr Flow's. If you sign up through them you get a perk, and I may get one too. I only list tools I would recommend either way.
+
+Prices and free limits verified November 2026. I re-check them every month.
+
+## What are the three kinds of speech to text AI?
+
+Dictation, transcription, and developer APIs. Pick by the job, not the brand.
+
+| Kind | What it does | Use it when | Examples |
+|---|---|---|---|
+| Dictation | Types what you say, live, into any app | You want to write emails, messages, and AI prompts by talking | Wispr Flow, Superwhisper, Apple Dictation, Windows voice typing |
+| Transcription | Converts a recorded meeting, call, or file into a transcript and summary | You need notes, quotes, or captions from audio you already have | Otter, Rev, Fathom, Granola, MacWhisper |
+| Developer APIs | Gives programmers the speech engine to build into their own apps | You are building a product that listens | OpenAI Whisper, Deepgram, AssemblyAI |
+
+If you are not building an app, ignore the third row. If you have recordings piling up, jump to the transcription section. Everyone else, keep reading.
+
+## How does speech to text AI work?
+
+An AI model listens to audio, predicts the words, and then (in newer tools) a second model cleans up the result. Older dictation only guessed words. Modern tools also remove "um" and "uh," fix punctuation, and handle restarts like "send it Tuesday, no, Wednesday" by writing Wednesday.
+
+That cleanup step is why AI dictation feels so different from the dictation built into your phone in 2015. You can ramble and still get a usable paragraph.
+
+## Is speaking actually faster than typing?
+
+Yes, for getting a first draft out. A Stanford-led study (Ruan et al.) measured speech at about 153 words per minute versus 52 on a phone keyboard. That test was on phones, in lab conditions, so treat it as a rough guide.
+
+My own number is simpler. On my laptop, Wispr Flow is roughly 3x faster than my keyboard. Here is my Wispr Flow Insights page, which shows where I dictate. A lot of it is prompts to AI.
+
+![Wispr Flow Pro Insights dashboard showing dictation usage, with most dictated text going into AI prompts](/ai-guides/five-ai-tools-wisprflow-insights.png "Wispr Flow's Insights tab. For me, most of the dictation lands in AI prompt boxes.")
+
+## What's the best speech to text AI for dictation?
+
+For talking instead of typing on a computer, I use and recommend Wispr Flow. The others below are researched summaries, not tools I run daily.
+
+**Wispr Flow.** Dictation in any text field on Mac, Windows, iPhone, and Android, in 100+ languages. I use it on desktop for Claude, Slack, and email. Free plan has a weekly word limit (Wispr does not publish the number on its pricing page). Pro is $15 a month, or $12 a month billed annually. [One free month of Pro through my referral link.](https://wisprflow.ai/r?MIKAELA1)
+
+**Superwhisper.** A strong alternative, especially if you want offline. It has a free plan with voice-to-text in any app and Whisper models, and its local models run well only on Apple Silicon Macs. It runs on Mac, Windows, iOS, and Android. Paid plans add your own API keys and file transcription. Check its pricing page for current amounts.
+
+**Apple Dictation (free, built in).** On Mac: System Settings, Keyboard, Dictation. Press the microphone key or your shortcut to start. Good for short bursts, and a fine way to test whether you like dictating before paying for anything.
+
+**Windows voice typing (free, built in).** Press Windows key + H with your cursor in a text box. It needs an internet connection, since it uses online speech recognition.
+
+**Google Docs Voice Typing (free).** Tools, then Voice typing, in Chrome, Edge, or Safari. Punctuation and editing voice commands work only in English. Useful only inside Docs.
+
+## How do I dictate prompts to Claude instead of typing them?
+
+Open your dictation app, click into the Claude box, hold the shortcut, and talk like you are explaining the task to a coworker. That is it. The reason it works is not just speed.
+
+When I type a prompt, I send a lazy one. "Make it better." Claude guesses wrong and I spend three more messages fixing it. When I speak, I naturally give context in one go: who it is for, what tone, what to keep, what to redo. One message instead of five. I covered this in [how to reduce Claude token use](/ai/reduce-claude-tokens-part-2), because fewer correction rounds means fewer tokens spent.
+
+Three habits that help:
+
+- **Say the goal first, then the constraints.** "I'm writing a reply to a customer who is upset about shipping. Keep it warm, under 100 words, no apology spiral."
+- **Dictate the messy version.** Don't plan the paragraph. Talk, then let Claude shape it.
+- **Read the text before you send.** Dictation is good, not perfect. Skim for names and numbers.
+
+If you are new to prompting, my [vibe coding for beginners guide](/ai/how-to-vibe-code-for-beginners) shows the same talk-first approach with a coding agent.
+
+> **Key insight:** Dictation is not mainly a typing shortcut. When you speak, you say more of what you actually mean, and AI does better work with more context.
+
+## What's the best speech to text AI for transcribing recordings?
+
+For recordings, use a transcription tool, not a dictation app. The ones people name most:
+
+- **Otter.** Free plan is 300 transcription minutes a month, with a 30-minute cap per conversation. Pro is $16.99 a month, or about $8.33 a month billed annually.
+- **Rev.** Free plan is 45 AI transcription minutes a month. Paid plans start at $25.49 a seat a month billed annually. Human-made transcripts start at $1.99 a minute.
+- **Fathom.** A meeting recorder with a free plan that lists unlimited recordings and transcripts. I use it to record meetings and get summaries.
+- **Granola.** Meeting notes without a bot joining the call. Free plan keeps 30 days of history. Business is $14 per user per month. I used it for meeting notes. [Two free months of Business through my referral link.](https://join.granola.ai/t/vhhbzajvu7) Both tools are covered in [5 AI tools that save me 10 hours a week](/ai/five-ai-tools-save-10-hours-weekly).
+- **Descript and MacWhisper.** Popular for editing audio and video by text, and for local file transcription on Mac. I have not reviewed their current pricing here.
+
+## When does dictation fail?
+
+Dictation fails in a few predictable places, and knowing them saves frustration.
+
+- **Names, jargon, and acronyms.** Company names and technical terms get mangled until you add them to a custom dictionary, which most dedicated apps offer.
+- **Noisy rooms.** Cafes and open offices hurt accuracy. A headset mic helps more than any setting.
+- **Code and exact strings.** Dictating a URL or a command rarely goes well. Type those.
+- **Thinking out loud in public.** Some people cannot dictate in an open office. That is a real limit, not a skill gap.
+- **Phones.** I keep very few apps on my phone and do my real work on desktop, so my experience is desktop only. Wispr Flow lists iPhone and Android support, but I have not tested it there.
+
+## Is speech to text AI private?
+
+It depends on the tool, so check three things before dictating anything sensitive:
+
+1. **Where does the audio go?** Cloud or on your device? Superwhisper's local models and OpenAI's open-source Whisper model can run on your own machine. Windows voice typing uses online speech recognition.
+2. **Is your data used for training?** Wispr Flow says you can opt out of model training and delete your data any time. Apple asks whether to share audio to improve Siri and Dictation when you turn it on.
+3. **Who can see transcripts?** For meeting tools, find out whether summaries are shared with your whole team or the people on the call.
+
+For client work or anything confidential, use a local model or turn off data sharing, and tell the other people in a meeting that you are recording.
+
+## What should you do first?
+
+Try the free built-in option for a day: Apple Dictation or Windows key + H, and dictate three prompts to Claude. If you like it, try Wispr Flow's free plan, then Pro if you hit the limit. If you mostly need meeting notes, start with Fathom. If you are a developer, look at Whisper, Deepgram, or AssemblyAI.
+
+Related: if you want the opposite direction, text to speech, read [the best AI voice generator](/ai/best-ai-voice-generator).
+
+## Additional reading
+
+Here are some related guides to check out:
+1. [5 AI Tools That Save Me 10+ Hours a Week](/ai/five-ai-tools-save-10-hours-weekly)
+2. [How to Reduce Claude Token Use, Part 2](/ai/reduce-claude-tokens-part-2)
+3. [How to Vibe Code for Beginners](/ai/how-to-vibe-code-for-beginners)
+4. [Best AI Voice Generator](/ai/best-ai-voice-generator)

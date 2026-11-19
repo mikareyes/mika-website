@@ -15,6 +15,11 @@ find, read, or cite the site. Format:
 
 ---
 
+## 2026-11-19 — 11 keyword-led tool guides
+- **What:** New `/ai` guides built on Keyword Planner and OpenSEO demand: `ai-tools-for-business`, `ai-marketing-tools`, `free-ai-tools`, `best-ai-apps`, `ai-search-engines`, `best-ai-voice-generator`, `speech-to-text-ai`, `ai-for-data-analytics`, `mcp-certification`, `what-is-open-source-ai`, `open-source-ai-agents`. All added to `public/llms-full.txt`. Each has an answer-first intro, question-shaped H2s, a 4-item `faq:` block and 3+ internal links, and the guides link to each other.
+- **Why:** Target head terms with low keyword difficulty, e.g. "ai search engines" and "artificial intelligence search engine" (12.1K/mo, KD 13–15), "best ai apps" (18.1K, KD 30), "ai marketing tools" (3.6K, KD 2). "open source ai" was split into a model explainer and an agents/tools list because "open source ai agents" (9.9K, KD 35) has different intent. List guides carry a "verified November 2026, re-checked monthly" line.
+- **Check:** Search Console → Performance for each slug at 4 and 8 weeks; OpenSEO rank tracking on the target keywords; AI visibility checks for "best AI apps for founders" and "AI search engines".
+
 ## 2026-10-20 — /press becomes a 3D shelf, archive grouped by volume
 - **What:** `/press` opens on a WebGL bookshelf (`src/components/press/shelf/`, ported from ThreeUI's Complete Shelf). Clippings are grouped into six volumes in `src/lib/press/shelf-volumes.ts`. Below the shelf, an "Every clipping" section lists all 36 items as `PressCard` links under per-volume `h3`s. The page keeps one `h1` ("Press") and its canonical. The meta description now names Forbes 30 Under 30, Parallax/Phantom and the WSJ.
 - **Why:** The 3D canvas is invisible to crawlers, so every `/press/<slug>` link stays in server-rendered HTML, now with topical grouping (volume headings) that gives answer engines context for each clipping.

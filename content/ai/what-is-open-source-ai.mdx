@@ -1,0 +1,126 @@
+---
+title: "What Is Open Source AI? (Explained for Founders)"
+description: >-
+  Open source AI means you can download a model and run it yourself. Here's
+  how it differs from open weight, the big models, and when it beats Claude
+  or ChatGPT.
+tags:
+  - beginner
+published: "2026-11-19"
+updated: "2026-11-19"
+faq:
+  - question: >-
+      What is open source AI?
+    answer: >-
+      Open source AI is a model you can download, run, study, change, and
+      share instead of only renting it through a website. The Open Source
+      Initiative's definition also requires the training code and data
+      information to be public, not just the model itself.
+  - question: >-
+      Is ChatGPT open source?
+    answer: >-
+      No. ChatGPT and Claude are hosted products, so you use them on the
+      company's servers and can't download them. OpenAI has released
+      separate open models called gpt-oss under Apache 2.0, but those are
+      different from ChatGPT.
+  - question: >-
+      What's the difference between open source and open weight?
+    answer: >-
+      Open weight means only the trained model is released. Open source also
+      needs the training code and data information. Most popular open models
+      are open weight.
+  - question: >-
+      Can I run open source AI on my own computer?
+    answer: >-
+      Yes, if the model is small enough for your memory. LM Studio
+      recommends 16GB of RAM, and OpenAI says gpt-oss-20b runs within 16GB.
+      The biggest models, like DeepSeek V4, need far more.
+---
+
+Open source AI is an AI model you can download, run on your own computer, and change, instead of renting access through a company's website. Most models called "open source" are really "open weight," and for most founders the label matters less than one question: do you need that control?
+
+Think of ChatGPT and Claude as eating at a restaurant. The food is great, someone else runs the kitchen, and you pay per meal. Open source AI is getting the recipe and a kitchen of your own. You can cook it privately, tweak it, and never pay per meal, but now you buy the equipment and do the cooking.
+
+## What does "open source AI" actually mean?
+
+Open source AI means the model's building blocks are public enough that anyone can use, study, change, and share it. The Open Source Initiative (OSI), the group that defines "open source" for software, published its Open Source AI Definition 1.0 with exactly those four freedoms: use it for any reason, study how it works, modify it, and share it.
+
+To qualify, the OSI definition requires three things to be available: the trained model (the "weights," the numbers the model learned), the code used to train and run it, and enough information about the training data that a skilled person could rebuild something similar.
+
+> **Key insight:** A model you can download is not automatically open source. The recipe has to be shared too, not just the finished dish.
+
+## What's the difference between open source and open weight?
+
+Open weight means only the trained model is released. Open source, by the OSI's bar, also means the training code and data information are public. The finished dish is on the table, but the recipe is still locked in a drawer.
+
+By that bar, most popular "open" models are open weight, not fully open source. Models like Llama, DeepSeek, Qwen, and Gemma publish their weights, and the OSI-style requirements for training code and data details are generally not met.
+
+For a founder this is mostly a vocabulary point. Open weight is enough to download and run a model. The difference matters when you read a license, because "open" can still come with strings.
+
+## Which open models are the big ones right now?
+
+The names below are the ones most often cited as leading open models. Licenses are what the model makers publish, and they change, so check the model card (the model's page on Hugging Face, a site where models are shared) before you build a business on one.
+
+| Model | Maker | License (as I verified it) | Good for |
+|---|---|---|---|
+| gpt-oss | OpenAI | Apache 2.0 | A small version (20B) that OpenAI says runs in 16GB of memory |
+| Gemma 4 | Google | Apache 2.0 (Google dropped its custom Gemma terms for this release) | Small to mid-size models for laptops |
+| DeepSeek V4 | DeepSeek | MIT | Very large model for cheap hosted use, too big to run at home |
+| Qwen 3.x | Alibaba | Check each model card (usually Apache 2.0, not confirmed for the newest) | Wide range of sizes |
+| Llama 4 | Meta | Llama Community License, not an OSI-approved license; companies above 700 million monthly users need Meta's permission | Large ecosystem of tools |
+| Kimi K3 | Moonshot AI | Custom Kimi K3 License with commercial limits (sources disagree; read the LICENSE file) | Huge model, hosted use |
+
+Mistral and GLM (from Z.ai) also come up often. I haven't verified their current licenses, so I'm leaving them off the table. "Best" shifts every few weeks, so treat any ranking, including this one, as a snapshot.
+
+What does "MIT" or "Apache 2.0" mean? Both are permissive licenses that let you use the model commercially with few conditions. A custom license like Llama's or Kimi's can add limits, so read it if you sell something built on top.
+
+## Why is everyone talking about open source AI now?
+
+Two reasons I can verify: the quality gap has narrowed, and the licenses got friendlier. Google moved Gemma 4 to Apache 2.0 in April 2026, OpenAI released gpt-oss under Apache 2.0, and DeepSeek V4 shipped under MIT. Big labs are now handing out serious models with business-friendly terms.
+
+## Should you care as a founder?
+
+Care if you need privacy, predictable cost at high volume, or control. Skip it if you want the best answers with the least effort.
+
+**Reasons to care**
+- **Privacy:** a model running on your own machine doesn't send your prompts to a vendor. Useful for client files, contracts, or health data.
+- **Cost at scale:** after you have the hardware, there's no per-message fee. If you process thousands of documents, that can add up in your favor.
+- **Control:** nobody can change the model under you, raise the price, or retire it.
+- **Customization:** you can fine-tune it (train it a little more on your own examples).
+
+**Reasons not to**
+- **Quality:** the largest open models are huge and don't run on a normal laptop. The ones that do are smaller and weaker than the frontier models in Claude and ChatGPT.
+- **Hardware and setup:** you need enough memory, and someone has to maintain it. A 2-person team's time is the expensive part.
+- **Tools and convenience:** Claude and ChatGPT come with search, file uploads, memory, and agents built in. A downloaded model is just the model. For the difference between a chat tool and an agent, see [chat-based AI vs agentic AI](/ai/chat-based-ai-vs-agentic-ai).
+
+## How do you try an open source model in 10 minutes?
+
+Install LM Studio, download a small model, and chat. I haven't run local models myself, so this is the researched route, not a first-hand test. I'd test it myself before recommending it to a client.
+
+LM Studio is a free desktop app with a chat window built in. (The app itself isn't open source, though the models you run in it are. If you want an open-source app, Ollama is MIT licensed.)
+
+1. **Check your computer.** LM Studio's docs say Macs need Apple Silicon (M1 to M4) and macOS 14 or newer, and recommend 16GB+ of RAM. On Windows, 16GB of RAM and a graphics card with at least 4GB of memory are recommended. Smaller models can run on 8GB.
+2. **Download LM Studio** from lmstudio.ai and install it.
+3. **Download a model inside the app.** Pick something small, like a Gemma 4 or gpt-oss-20b (OpenAI says that one runs within 16GB of memory). Bigger isn't better here. It has to fit your RAM.
+4. **Open a chat and ask something real.** Try a task you'd give ChatGPT, like rewriting an email or summarizing a document. Compare the answer to what you'd get from Claude.
+5. **Test the privacy point.** Turn off your Wi-Fi and see if it still answers.
+
+If you're comfortable in a terminal, Ollama does the same job from the command line, for example `ollama run gemma4`. New to the terminal? Start with [how to set up Claude](/ai/how-to-setup-claude).
+
+## When should you stay with Claude or ChatGPT?
+
+Stay with Claude or ChatGPT when the work needs the best quality, tools, and zero maintenance. That's most of what a small team does day to day. I use ChatGPT and Claude daily, and Claude Code is my main assistant and agent. [All first-hand per Mika's stack.]
+
+A reasonable split: use a hosted model for everything by default, and reach for an open model when you have sensitive data you won't send to a vendor, or high volume where per-message fees hurt. Start with [free AI tools](/ai/free-ai-tools) if you're mostly looking to spend less.
+
+## Is open source AI only about models?
+
+No. Open source AI also includes tools and agents you can self-host and modify. See [open source AI agents](/ai/open-source-ai-agents) for that side.
+
+## Additional reading
+
+Here are some related guides to check out:
+1. [Chat-Based AI vs Agentic AI (side by side comparison)](/ai/chat-based-ai-vs-agentic-ai)
+2. [How to Setup Claude (10 Minute Setup Guide)](/ai/how-to-setup-claude)
+3. [Free AI Tools](/ai/free-ai-tools)
+4. [Open Source AI Agents](/ai/open-source-ai-agents)

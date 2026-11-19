@@ -1,0 +1,184 @@
+---
+title: "Open Source AI Agents and Tools for Non-Technical Founders"
+description: >-
+  Open source AI agents you can actually run: OpenClaw, n8n, free agent
+  skills, and self-hosted tools like LedaChat, Meetily, and Cap, picked by
+  job.
+tags:
+  - beginner
+  - skills
+published: "2026-11-19"
+updated: "2026-11-19"
+faq:
+  - question: >-
+      What are open source AI agents?
+    answer: >-
+      Open source AI agents are AI assistants that can take actions for you,
+      like sending messages or scheduling posts, and whose code is public
+      under a license that lets you run and change it. You can read what
+      they do, run them on your own computer or server, and plug in the AI
+      model you prefer. You usually pay only for the model usage and any
+      hosting.
+  - question: >-
+      Can I use open source AI agents without knowing how to code?
+    answer: >-
+      Yes, if you pick the right kind. Free skill packs install with one
+      command, and many self-hosted apps offer a hosted version so you skip
+      the server work. For anything you do host yourself, a coding agent
+      like Claude Code can follow the README and do the setup while you
+      approve each step.
+  - question: >-
+      Are open source AI agents really free?
+    answer: >-
+      The software is usually free, but running it is not. You pay for the
+      AI model usage through an API key, plus a server or hosting if you
+      self-host. Some popular tools also use licenses with limits, like
+      n8n's Sustainable Use License, so check the license before building a
+      business on one.
+  - question: >-
+      What's the difference between an open source AI agent and an open
+      source AI model?
+    answer: >-
+      The model is the brain that generates text, and the agent is the
+      software that uses tools to complete tasks for you. Most open source
+      agents let you plug in any model, including paid ones like Claude or
+      ChatGPT. You can have an open source agent running a closed model, or
+      the reverse.
+---
+
+Open source AI agents are AI assistants whose code is public, so you can read it, run it on your own computer or server, and change it. For a non-technical founder the good ones fall into four buckets: agents you run, automation tools, free skill packs for any AI agent, and self-hosted apps that replace paid software.
+
+I only care about the open source tools a non-engineer can use. This is that list, grouped by job.
+
+Everything here was checked against each project's own GitHub page in November 2026. Licenses and install steps change, so I re-check them every month. Where I use a tool, I say so. Where I don't, it's a summary of what the project says about itself.
+
+## What is an open source AI agent?
+
+An open source AI agent is software that can take actions for you, like sending a message, filing a document, or posting to social, and whose source code is published under a license that lets anyone use and change it.
+
+Here's the analogy I use. A normal AI app is a restaurant meal. You get the dish, you can't see the kitchen, and the price is on the menu. An open source agent is a published recipe. You can cook it at home, check every ingredient, change it, and nobody can raise the price on you. The catch is you're the one cooking, so there's some setup.
+
+Two quick definitions. An **agent** is an AI that does multi-step work with tools instead of just answering in a chat box (more in [chat-based AI vs agentic AI](/ai/chat-based-ai-vs-agentic-ai)). **Self-hosting** means running the software on a server or computer you control, rather than using the company's hosted version.
+
+One thing to know up front: an open source agent is not the same as an open source model. The model (the "brain," like Llama) and the agent (the "hands" that use tools) are separate pieces. Most open source agents let you plug in any model, including Claude or ChatGPT. For the brain side, read [What Is Open Source AI?](/ai/what-is-open-source-ai).
+
+## Why does open source matter for AI agents?
+
+Because an agent touches your inbox, your files, and your customers, and open source lets you control and inspect all of it. Three reasons matter for a founder:
+
+- **You own your data and workflow.** Memory, credentials, and logs stay on your machine or your server, not in someone else's database.
+- **No per-seat pricing or lock-in.** Most of these tools are free to run. You pay for the model usage or the small server, not a seat per teammate. If a vendor changes pricing or shuts down, your setup keeps running.
+- **You can read what it does.** An agent that can send messages as you should be auditable. With open source, you or your coding agent can open the code and check.
+
+The trade-off is real. You handle setup, updates, and security yourself, and "free" still means you pay for model usage and hosting.
+
+> **Key insight:** Open source doesn't mean free of work. You're swapping a monthly bill for an afternoon of setup, and getting control in return.
+
+## Which open source AI agents can you run yourself?
+
+### OpenClaw (personal AI assistant)
+
+OpenClaw is an MIT-licensed personal AI assistant that runs on your own computer and works through chat apps you already use, like WhatsApp, Telegram, Slack, Discord, and iMessage. Its GitHub page describes it as running on your hardware, with state, memory, and credentials staying with you, and you can use hosted or local models. It started life as Clawdbot, was renamed Moltbot and then OpenClaw in early 2026, and its creator, Peter Steinberger, joined OpenAI in February 2026 with the project moving to an independent foundation.
+
+I ran an OpenClaw meetup for the Manila startup scene on February 25, 2026. It started with a comment asking for one, and more than 65 people were on the waitlist before we'd picked a venue. [Read the meetup post](/blog/openclaw-manila-meetup-february-2026).
+
+Be careful with it. OpenClaw's own docs say tools run on your host machine unless you set up sandboxing, and that you should treat incoming messages as untrusted. Read its security guide before connecting it to anything sensitive. It's the most powerful option here and the one I'd set up last.
+
+### goose (general-purpose agent from the Linux Foundation)
+
+goose is an Apache-2.0 agent with a desktop app, a command line version, and an API. Its repo says it's part of the Agentic AI Foundation at the Linux Foundation and works for research, writing, and automation, not just code. It supports 15+ model providers and connects to 70+ extensions through MCP (Model Context Protocol, the standard plug that lets AI apps use your tools). If you want an agent with a normal app window instead of a chat bot, start here.
+
+### Paperclip (a team of agents with budgets)
+
+Paperclip is an MIT-licensed, self-hosted tool that runs several agents like an org chart: roles, task tracking, and a spending cap per agent. You bring your own agents, like Claude Code, Codex, or OpenClaw. I wrote the full walkthrough in [How to Set Up a $0 AI Marketing Team with Paperclip](/ai/how-to-setup-zero-ai-marketing-team-paperclip). It's a step up in difficulty, so plan on a couple of hours for first setup.
+
+## What's the best open source automation tool?
+
+### n8n (visual workflows with AI agent steps)
+
+n8n lets you drag boxes together so an AI step runs inside a larger workflow, for example "when a form comes in, have an agent research the lead, then add them to my CRM." It has 400+ integrations according to its GitHub page and can run in Docker on your own server.
+
+One honesty point most roundups skip: n8n is "fair-code," released under its own Sustainable Use License, not a standard open source license. Its GitHub page labels it source-available. You can self-host it for your own business freely, but check the license before you build a product on top of it.
+
+## Which free open source skills work with AI agents?
+
+A skill is a folder of instructions your AI agent loads when a task calls for it ([what is a skill](/ai/what-is-a-skill)). Skills are the easiest open source entry point for a non-technical person, because you install one with a single command and nothing runs on a server. They follow the open Agent Skills format, so most work in Claude Code, Codex, Cursor, and other agents that support it, not just Claude. Every pick below is MIT or Apache 2.0 licensed.
+
+The easiest way to install them is the free, open-source [skills CLI](https://github.com/vercel-labs/skills) from Vercel: run `npx skills add <owner/repo>` and it asks which agents to install into.
+
+**Writing**
+
+- **[humanizer](https://github.com/blader/humanizer)**: rewrites text to remove the patterns that make writing sound AI-generated, based on Wikipedia's guide to signs of AI writing. [How I use it](/ai/humanizer).
+- **[no-ai-slop](https://github.com/petergyang/no-ai-slop)**: Peter Yang's skill that edits a draft in your own voice, or just flags AI-sounding patterns without rewriting.
+
+**Marketing and content**
+
+- **[marketingskills](https://github.com/coreyhaines31/marketingskills)**: Corey Haines' pack of more than 50 marketing skills for CRO, copywriting, SEO, and analytics. [My install walkthrough](/ai/how-to-install-free-marketing-skills-claude).
+- **[content-creation-skills](https://github.com/kingscrosslabs/content-creation-skills)**: King's Cross Labs' pack of 16 skills for hooks, scripts, captions, carousels, newsletters, and content planning.
+- **[aeo-seo-skills](https://github.com/kingscrosslabs/aeo-seo-skills)**: our pack for SEO and AEO (getting cited by AI answers): audits, blog posts, and comparison pages. It's still early, and it needs OpenSEO connected.
+
+**Video**
+
+- **[HyperFrames](https://github.com/heygen-com/hyperframes)**: HeyGen's open-source video framework ships a set of skills that let your agent write a video as HTML and render it to MP4: captions, motion graphics, slideshows, product launch videos, and more. It's how I edit video with Claude Code.
+- **[watch-video](https://github.com/MarcinSufa/claude-watch-video)**: gives your agent eyes and ears for a video file or a public link (YouTube, Loom, TikTok, and more), so it can summarize or review a video.
+- **[claude-video-vision](https://github.com/jordanrendric/claude-video-vision)**: pulls frames and audio out of a video so Claude Code can understand what happens in it, which is useful before you ask for edits.
+
+**Research**
+
+- **[last30days](https://github.com/mvanhorn/last30days-skill)**: researches any topic across Reddit, X, YouTube, Hacker News, and the web from the last 30 days and writes a grounded summary. Good for content ideas and checking what people actually say about a tool.
+
+**Design**
+
+- **[impeccable](https://github.com/pbakaus/impeccable)**: gives your coding agent a design vocabulary, so you can ask it to polish, critique, or audit a page and catch generic AI-looking design.
+
+**Documents**
+
+- **[Anthropic's skills](https://github.com/anthropics/skills)**: the open-source skills behind Claude's Word, PDF, PowerPoint, and Excel files, plus examples you can copy to write your own.
+
+## Which open source software replaces paid SaaS?
+
+These are self-hosted apps, so they need a server and more setup than a skill. I include them because open source is where AI-friendly versions of everyday tools are showing up, and several now ship MCP servers so your agent can drive them.
+
+**Social publishing: Adeli.** An open source social media and ads API with an MCP, so your agent can post, reply to comments and DMs, read analytics, and run ads across Instagram, TikTok, YouTube, Facebook, LinkedIn, and X. It's how Claude publishes my posts. The open source tools include the [TypeScript SDK](https://github.com/kingscrosslabs/adeli-sdk), a [Chat SDK adapter](https://github.com/kingscrosslabs/adeli-chat-sdk-adapter) for building DM bots, and LedaChat below, which is built on it. There's a hosted version at [tryadeli.com](https://www.tryadeli.com) if you'd rather skip setup.
+
+**Sending documents: Papermark.** An AGPLv3 "open-source DocSend alternative" for sharing decks with tracking, custom domains, and data rooms. Self-hosting needs a Postgres database, file storage, and an email service, so most people will be happier on the hosted version. I haven't used it.
+
+**SEO research: OpenSEO.** An MIT-licensed alternative to Semrush and Ahrefs for keyword research, rank tracking, backlinks, site audits, and AI visibility, with an MCP server and agent skills. I use it for SEO and AEO research on this site, through Claude. Self-hosting means paying DataForSEO directly for the data, and a hosted version exists too, so check pricing for either route.
+
+**Instagram comment-to-DM: LedaChat**. A free, MIT-licensed Instagram automation tool. Someone comments a keyword, gets a DM with a button, and then the link, with an optional follow gate and email capture. You can self-host it on Vercel with a Neon Postgres database, and it ships an MCP server so Claude, ChatGPT, or Cursor can create automations. Code: [github.com/kingscrosslabs/ledachat](https://github.com/kingscrosslabs/ledachat). If you'd rather skip hosting, the hosted version at [ledachat.com](https://www.ledachat.com) has a free plan.
+
+**Meeting notes: Meetily.** An MIT-licensed, privacy-first meeting note taker for Mac, Windows, and Linux, and an open source alternative to Granola. It transcribes on your own device, so recordings never leave your computer. Code: [github.com/Zackriya-Solutions/meeting-minutes](https://github.com/Zackriya-Solutions/meeting-minutes).
+
+**Screen recording: Cap.** An open source alternative to Loom for quick, shareable screen recordings. Most of the code is AGPLv3, with some parts under MIT. You can use the hosted version or self-host it. Code: [github.com/CapSoftware/Cap](https://github.com/CapSoftware/Cap).
+
+**Product analytics: PostHog.** Product analytics, session replay, feature flags, and AI observability in one tool. The core is MIT licensed, with enterprise features under a separate license, and it ships an MCP so your agent can query your data. Most people use the hosted version, which has a generous free tier. Code: [github.com/PostHog/posthog](https://github.com/PostHog/posthog).
+
+**Running coding agents: T3 Code.** An MIT-licensed app for controlling Claude Code, Codex, and other coding agents from any computer or phone. Useful once you run agents for real work and want one place to watch them. Code: [github.com/pingdotgg/t3code](https://github.com/pingdotgg/t3code).
+
+## How do you self-host an open source AI tool without being an engineer?
+
+Use a coding agent as your engineer, and pick the hosting route with the fewest moving parts. Here's the order I'd follow:
+
+1. **Start with a skill, not a server.** A skill needs one install command and zero hosting. It's the cheapest way to see if open source fits how you work.
+2. **Check for a hosted version first.** Papermark, OpenSEO, LedaChat, Cap, and PostHog all offer one. You still get the open code and an exit door, and you skip the setup.
+3. **Pick a platform that does the server for you.** For LedaChat that's Vercel plus Neon: import the repo in Vercel, add Neon from the Vercel Marketplace for the database, set the environment variables, and redeploy. It also needs a Google sign-in client and an Adeli API key, and the README walks through each. That's the stack I use for my own sites.
+4. **Let Claude Code do the setup.** Open the repo, tell Claude Code what you want in plain English ("help me deploy this to Vercel with Neon, ask me for any keys you need"), and approve each step. It reads the README faster than you will.
+5. **Put secrets in environment variables, never in chat.** Paste keys into Vercel's settings page yourself. Don't paste them into a prompt.
+6. **Start read-only for anything that can act as you.** For agents like OpenClaw, begin with one low-stakes task and don't give it access to your main inbox on day one.
+
+## Other good options
+
+- **Ollama**: MIT-licensed app that runs open models on your own computer. More in [What Is Open Source AI?](/ai/what-is-open-source-ai).
+- **Open WebUI**: a self-hosted chat interface for local and hosted models. It uses its own license with branding terms, so read it before you use it for a business.
+
+Related, if you want to compare with fully hosted agent tools: [AI tools for business](/ai/ai-tools-for-business).
+
+## Additional reading
+
+Here are some related guides to check out:
+
+1. [What Is Open Source AI?](/ai/what-is-open-source-ai)
+2. [What is a Skill?](/ai/what-is-a-skill)
+3. [How to Install Free Marketing Skills for Claude](/ai/how-to-install-free-marketing-skills-claude)
+4. [How to Set Up a $0 AI Marketing Team with Paperclip](/ai/how-to-setup-zero-ai-marketing-team-paperclip)
+5. [Humanizer](/ai/humanizer)
