@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="350" viewBox="90 90 420 350">
+<path d='M180 372 L420 372 L452 432 L148 432 Z' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='112' y='112' width='392' height='282' rx='36' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='100' y='100' width='392' height='282' rx='36' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<g stroke="#000" stroke-width="4" stroke-linejoin="round">
+<rect x='124' y='128' width='56' height='56' rx='10' fill='#2F2C29'/><rect x='196' y='128' width='56' height='56' rx='10' fill='#2F2C29'/><rect x='268' y='128' width='56' height='56' rx='10' fill='#2F2C29'/><rect x='340' y='128' width='56' height='56' rx='10' fill='#2F2C29'/><rect x='412' y='128' width='56' height='56' rx='10' fill='#2F2C29'/>
+<rect x='124' y='200' width='56' height='56' rx='10' fill='#2F2C29'/><rect x='196' y='200' width='56' height='56' rx='10' fill='#2F2C29'/><rect x='268' y='200' width='56' height='56' rx='10' fill='#2F2C29'/><rect x='340' y='200' width='56' height='56' rx='10' fill='#2F2C29'/><rect x='412' y='200' width='56' height='56' rx='10' fill='#2F2C29'/>
+<rect x='124' y='272' width='56' height='56' rx='10' fill='#2F2C29'/><rect x='196' y='272' width='56' height='56' rx='10' fill='#2F2C29'/><rect x='268' y='272' width='56' height='56' rx='10' fill='#2F2C29'/><rect x='340' y='272' width='56' height='56' rx='10' fill='#2F2C29'/><rect x='412' y='272' width='56' height='56' rx='10' fill='#2F2C29'/>
+</g>
+<g stroke="#000" stroke-width="3" stroke-linejoin="round">
+<circle cx='152' cy='156' r='14' fill='#FF5959'/>
+<rect x='210' y='142' width='28' height='28' rx='6' fill='#FACF5A'/>
+<path d='M284 170 L296 142 L308 170 Z' fill='#6FD098'/>
+<rect x='354' y='148' width='28' height='16' rx='4' fill='#49BEB7'/>
+<circle cx='440' cy='156' r='14' fill='#FBF8F5'/>
+<rect x='138' y='214' width='28' height='28' rx='6' fill='#49BEB7'/>
+<circle cx='224' cy='228' r='14' fill='#6FD098'/>
+<rect x='282' y='214' width='28' height='28' rx='14' fill='#FF5959'/>
+<path d='M354 242 L368 214 L382 242 Z' fill='#FACF5A'/>
+<rect x='426' y='220' width='28' height='16' rx='4' fill='#FBF8F5'/>
+<path d='M138 314 L152 286 L166 314 Z' fill='#FBF8F5'/>
+<rect x='210' y='286' width='28' height='28' rx='6' fill='#FF5959'/>
+<circle cx='296' cy='300' r='14' fill='#49BEB7'/>
+<rect x='354' y='286' width='28' height='28' rx='6' fill='#6FD098'/>
+<circle cx='440' cy='300' r='14' fill='#FACF5A'/>
+</g>
+<text x='296' y='364' text-anchor='middle' font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='800' font-size='18' letter-spacing='4' fill='#000'>ELGATO</text>
+</svg>

@@ -253,7 +253,8 @@ export default function WishlistExperience({ list }: { list: Wishlist }) {
         const free = vw * Math.max(vh * 0.45, vh - heroBottom * 0.6);
         const unitArea = items.reduce((sum, it) => {
           const r = ratios.get(it.gift.id) ?? 1;
-          return sum + (r >= 1 ? 1 / r : r);
+          const s = it.gift.pileScale ?? 1;
+          return sum + (r >= 1 ? 1 / r : r) * s * s;
         }, 0);
         const fill = vw < 600 ? 0.72 : 0.62;
         return Math.max(120, Math.min(Math.sqrt((fill * free) / unitArea), vw < 600 ? vw * 0.62 : 440));
@@ -282,8 +283,9 @@ export default function WishlistExperience({ list }: { list: Wishlist }) {
         order.forEach((it, i) => {
           if (it.body) Composite.remove(engine.world, it.body);
           const r = ratios.get(it.gift.id) ?? 1;
-          it.w = r >= 1 ? L : L * r;
-          it.h = r >= 1 ? L / r : L;
+          const side = L * (it.gift.pileScale ?? 1);
+          it.w = r >= 1 ? side : side * r;
+          it.h = r >= 1 ? side / r : side;
           const node = el(it);
           if (node) {
             node.style.width = it.w + "px";

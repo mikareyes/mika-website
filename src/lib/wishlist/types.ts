@@ -30,6 +30,12 @@ export type WishlistGift = {
    */
   image: string;
   ground: WishlistGround;
+  /**
+   * Size in the pile relative to the others (default 1). For drawings whose
+   * object sits small inside its viewBox, so they don't look tiny next to
+   * tightly cropped ones.
+   */
+  pileScale?: number;
   /** Something to do rather than own: adds an invite to come along. */
   experience?: boolean;
 };

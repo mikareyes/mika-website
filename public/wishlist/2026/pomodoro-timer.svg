@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="350" viewBox="125 125 350 350">
+<rect x='152' y='152' width='310' height='310' rx='56' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='140' y='140' width='310' height='310' rx='56' fill='#FBF8F5' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x='180' y='182' width='230' height='104' rx='16' fill='#2F2C29' stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x='295' y='256' text-anchor='middle' font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='700' font-size='68' fill='#FF5959'>25:00</text>
+<circle cx='295' cy='366' r='46' fill='#D9CFC2' stroke="#000" stroke-width="4"/>
+<circle cx='295' cy='360' r='46' fill='#FBF8F5' stroke="#000" stroke-width="4"/>
+<path d='M295 326 L295 346' stroke='#000' stroke-width='6' stroke-linecap='round'/>
+<rect x='196' y='344' width='40' height='30' rx='8' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round"/>
+<rect x='354' y='344' width='40' height='30' rx='8' fill='#D9CFC2' stroke="#000" stroke-width="4" stroke-linejoin="round"/>
+<text x='295' y='432' text-anchor='middle' font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight='800' font-size='18' letter-spacing='4' fill='#000'>POMODORO</text>
+</svg>
