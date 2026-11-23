@@ -19,7 +19,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/lady-wong-pistachio-raspberry.svg",
       ground: "yellow",
-      pileScale: 2.34,
+      pileScale: 1.56,
     },
     {
       id: "lady-m-pistachio",
@@ -35,7 +35,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/lady-m-pistachio.svg",
       ground: "aqua",
-      pileScale: 2.34,
+      pileScale: 1.56,
     },
     {
       id: "garmin-forerunner-570",
@@ -51,7 +51,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/garmin-forerunner-570.svg",
       ground: "yellow",
-      pileScale: 2.34,
+      pileScale: 1.56,
     },
     {
       id: "anthropologie-gift-card",
@@ -67,7 +67,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/anthropologie-gift-card.svg",
       ground: "green",
-      pileScale: 2.34,
+      pileScale: 1.56,
     },
     {
       id: "barrow-group-class",
@@ -83,7 +83,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/barrow-group-class.svg",
       ground: "aqua",
-      pileScale: 2.34,
+      pileScale: 1.56,
       experience: true,
     },
     {
@@ -100,7 +100,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/solgaard-carry-on-closet.svg",
       ground: "yellow",
-      pileScale: 2.34,
+      pileScale: 1.56,
     },
     {
       id: "candlelight-concert",
@@ -120,7 +120,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/candlelight-concert.svg",
       ground: "green",
-      pileScale: 2.34,
+      pileScale: 1.56,
       experience: true,
     },
     {
@@ -141,7 +141,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/anker-chargers.svg",
       ground: "yellow",
-      pileScale: 2.34,
+      pileScale: 1.56,
     },
     {
       id: "givewell-donation",
@@ -157,7 +157,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/givewell-donation.svg",
       ground: "aqua",
-      pileScale: 2.34,
+      pileScale: 1.56,
     },
     {
       id: "givedirectly-donation",
@@ -173,7 +173,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/givedirectly-donation.svg",
       ground: "yellow",
-      pileScale: 2.34,
+      pileScale: 1.56,
     },
     {
       id: "lego-bonsai-tree",
@@ -189,7 +189,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/lego-bonsai-tree.svg",
       ground: "yellow",
-      pileScale: 2.34,
+      pileScale: 1.56,
     },
     {
       id: "lego-flower-arrangement",
@@ -205,7 +205,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/lego-flower-arrangement.svg",
       ground: "yellow",
-      pileScale: 2.34,
+      pileScale: 1.56,
     },
     {
       id: "danznik-ballroom",
@@ -253,7 +253,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/todaytix-gift-card.svg",
       ground: "green",
-      pileScale: 2.34,
+      pileScale: 1.56,
       experience: true,
     },
     {
