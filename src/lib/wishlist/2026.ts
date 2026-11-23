@@ -19,6 +19,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/lady-wong-pistachio-raspberry.svg",
       ground: "yellow",
+      pileScale: 2.34,
     },
     {
       id: "lady-m-pistachio",
@@ -34,6 +35,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/lady-m-pistachio.svg",
       ground: "aqua",
+      pileScale: 2.34,
     },
     {
       id: "garmin-forerunner-570",
@@ -49,6 +51,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/garmin-forerunner-570.svg",
       ground: "yellow",
+      pileScale: 2.34,
     },
     {
       id: "anthropologie-gift-card",
@@ -64,6 +67,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/anthropologie-gift-card.svg",
       ground: "green",
+      pileScale: 2.34,
     },
     {
       id: "barrow-group-class",
@@ -79,6 +83,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/barrow-group-class.svg",
       ground: "aqua",
+      pileScale: 2.34,
       experience: true,
     },
     {
@@ -95,6 +100,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/solgaard-carry-on-closet.svg",
       ground: "yellow",
+      pileScale: 2.34,
     },
     {
       id: "candlelight-concert",
@@ -114,6 +120,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/candlelight-concert.svg",
       ground: "green",
+      pileScale: 2.34,
       experience: true,
     },
     {
@@ -134,6 +141,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/anker-chargers.svg",
       ground: "yellow",
+      pileScale: 2.34,
     },
     {
       id: "givewell-donation",
@@ -149,6 +157,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/givewell-donation.svg",
       ground: "aqua",
+      pileScale: 2.34,
     },
     {
       id: "givedirectly-donation",
@@ -164,6 +173,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/givedirectly-donation.svg",
       ground: "yellow",
+      pileScale: 2.34,
     },
     {
       id: "lego-bonsai-tree",
@@ -179,6 +189,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/lego-bonsai-tree.svg",
       ground: "yellow",
+      pileScale: 2.34,
     },
     {
       id: "lego-flower-arrangement",
@@ -194,6 +205,7 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/lego-flower-arrangement.svg",
       ground: "yellow",
+      pileScale: 2.34,
     },
     {
       id: "danznik-ballroom",
@@ -241,7 +253,38 @@ export const WISHLIST_2026: Wishlist = {
       ],
       image: "/wishlist/2026/todaytix-gift-card.svg",
       ground: "green",
+      pileScale: 2.34,
       experience: true,
+    },
+    {
+      id: "elgato-stream-deck-white",
+      name: "Elgato Stream Deck (white)",
+      price: "$119.99",
+      blurb:
+        "The white Elgato Stream Deck, the original 15-key one.",
+      links: [
+        {
+          label: "Buy at Elgato",
+          url: "https://www.elgato.com/us/en/p/stream-deck-white",
+        },
+      ],
+      image: "/wishlist/2026/elgato-stream-deck-white.svg",
+      ground: "aqua",
+    },
+    {
+      id: "pomodoro-timer",
+      name: "Physical Pomodoro timer (white)",
+      price: "See Amazon",
+      blurb:
+        "A physical Pomodoro countdown timer for my desk, in white.",
+      links: [
+        {
+          label: "Buy on Amazon",
+          url: "https://www.amazon.com/dp/B0GVDD2FSP?th=1",
+        },
+      ],
+      image: "/wishlist/2026/pomodoro-timer.svg",
+      ground: "yellow",
     },
   ],
 };
