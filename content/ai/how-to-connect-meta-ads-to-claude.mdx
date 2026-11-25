@@ -12,6 +12,7 @@ tags:
   - meta-ads
   - beginner
 published: "2026-06-09"
+updated: "2026-11-25"
 date: "2026-06-09"
 cta: Connect Meta Ads in 5 minutes
 order: 21
@@ -26,22 +27,31 @@ faq:
       You can also build a Cowork dashboard to watch your ads at a glance every
       morning.
   - question: >-
-      How do I connect Meta Ads to Claude?
+      How do I connect Facebook ads to Claude?
     answer: >-
-      In Claude, go to Settings → Connectors → Add custom connector, paste
+      Use Meta's official Meta Ads connector. In Claude, go to Settings →
+      Connectors → Add custom connector, paste
       Meta's official MCP URL (https://mcp.facebook.com/ads), name it Meta Ads,
       and authorize with the Facebook profile that has admin access to your ad
       account. Pick only the ad accounts you actually want Claude to touch, then
       test with a read-only question like your spend over the last 7 days. Meta
       hosts the server, so you're not running anything yourself.
   - question: >-
-      Is it safe to let Claude touch my ad campaigns?
+      How do I connect Instagram ads to Claude?
     answer: >-
-      It's as safe as you configure it. The key step is setting the write tools
-      (anything that creates, edits, or activates ads) to "Needs approval" so
-      Claude has to ask before making changes. That keeps full read access for
-      reporting without risking an accidentally paused campaign. Start read-only
-      and use the dashboard for decisions before you let Claude change anything.
+      Instagram ads run through your Meta ad account, so you connect them with
+      the same Meta Ads connector as Facebook ads. Add
+      https://mcp.facebook.com/ads as a custom connector in Claude, authorize
+      with the Facebook profile that has admin access, and pick the ad account
+      your Instagram campaigns run from.
+  - question: >-
+      How do I manage my Facebook ads from Claude safely?
+    answer: >-
+      Set every write tool (anything that creates, edits, or activates ads) to
+      "Needs approval" so Claude has to ask before it changes anything. Grant
+      access to one ad account for your first test, keep client accounts off
+      the list unless you are cleared to manage them, and start with read-only
+      questions and a dashboard before you let Claude touch campaigns.
   - question: >-
       Why isn't the Meta Ads connector working for me?
     answer: >-
@@ -79,7 +89,7 @@ You will need:
 
 **Open beta note:** Meta is rolling this out gradually. Some accounts are not enabled yet. If you complete setup but Claude says the connector is disabled, your account may not be in the beta yet. Check back in a week or two, or confirm eligibility in Meta's Business Help Center under "Manage Ads from an AI Agent with Meta Ads AI Connectors."
 
-## Connect Claude to Meta Ads
+## How do you connect Facebook and Instagram ads to Claude?
 
 ### 1. **Get the official Meta MCP server URL**
 
