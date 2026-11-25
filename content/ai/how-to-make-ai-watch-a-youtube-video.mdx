@@ -8,14 +8,55 @@ tags:
   - skills
   - claude
 published: "2026-08-25"
-updated: "2026-08-25"
+updated: "2026-11-25"
 faq:
   - question: >-
-      Can I do this if I'm not technical?
+      Can Claude Code watch YouTube videos?
     answer: >-
-      Yes. You need Claude Code or Codex, then two plugin commands from the
-      GitHub repo and a setup wizard that checks ffmpeg and yt-dlp for you. You
-      paste a YouTube link and ask a real question. You do not write any code.
+      Yes, once you install the watch-video skill. Claude Code is where I set it
+      up: two /plugin commands from the GitHub repo, then /setup-video-vision.
+      After that, /watch-video plus a YouTube link makes Claude Code watch the
+      video, frames and audio together. Regular claude.ai chat cannot install
+      this plugin, so set up Claude Code first.
+  - question: >-
+      Can Codex watch YouTube videos?
+    answer: >-
+      Yes. I run the same /watch-video skill in Codex once it is on that
+      machine, and it watches a YouTube link the same way
+      it does in Claude Code. The /plugin commands in this guide are the Claude
+      Code install path for the GitHub repo, so that is the easiest place to
+      start before you make Codex watch or analyze videos.
+  - question: >-
+      Why can't Claude watch YouTube videos?
+    answer: >-
+      Regular Claude chat has no way to pull the frames and audio off a YouTube
+      URL on its own. The watch-video skill adds that: yt-dlp grabs the video
+      from the link and ffmpeg pulls the frames, so Claude can see what is on
+      screen and hear what is said. That is why you need Claude Code or Codex,
+      not the chat app.
+  - question: >-
+      Can AI watch YouTube videos?
+    answer: >-
+      Yes, with the right setup. I make AI watch a video by installing the
+      watch-video skill from GitHub in Claude Code or Codex, then pasting a YouTube
+      link with a question. It extracts frames and audio, so the AI can talk
+      about the visual hook and the editing, not just the words in a
+      transcript.
+  - question: >-
+      How do I make Claude learn from or analyze a YouTube video?
+    answer: >-
+      Give Claude the YouTube link with /watch-video and a specific question
+      after it. To learn, ask for the framework, the steps in order, and what
+      to try this week. To analyze, ask for the spoken hooks, the visual hooks,
+      and why the editing works. A question after the URL gets a much better
+      answer than the link alone.
+  - question: >-
+      How do I make Claude watch Reels or TikToks?
+    answer: >-
+      Download the Reel or TikTok as an mp4 and pass the file path, like
+      /watch-video ~/Downloads/reel.mp4. Local video files work the same as
+      YouTube links. YouTube is the paste-a-link path; I would not count on
+      pasting an Instagram or TikTok URL the same way.
   - question: >-
       How is this different from pasting a YouTube transcript into Claude?
     answer: >-
@@ -23,19 +64,11 @@ faq:
       so Claude can see the on-screen text, the jump cuts, and the first three
       seconds. Use /watch-video when the visual is part of why the video works.
   - question: >-
-      Does /watch-video work with TikTok or Instagram, or only YouTube?
+      Can I do this if I'm not technical?
     answer: >-
-      YouTube URLs work as a paste-a-link path. Local video files work too, so
-      you can download a TikTok or Reel as an mp4 and pass the file path. I
-      would not count on pasting an Instagram or TikTok URL the same way you
-      paste a YouTube link.
-  - question: >-
-      Do I need Claude Code, or does this work in regular Claude chat?
-    answer: >-
-      You need an agent that can install the plugin and run the video tools,
-      which for me is Claude Code and Codex. Regular claude.ai chat cannot
-      install this plugin or extract frames off a YouTube URL on its own. Set
-      up Claude Code first, then come back to this.
+      Yes. You need Claude Code or Codex, then two plugin commands from the
+      GitHub repo and a setup wizard that checks ffmpeg and yt-dlp for you. You
+      paste a YouTube link and ask a real question. You do not write any code.
 ---
 
 This is a skill that lets Claude or Codex watch long videos for me. I paste a YouTube link instead of spending the entire hour watching the full thing.
@@ -44,7 +77,13 @@ If you're a creator, marketer, founder, or just someone who wants to learn bette
 
 Need Claude Code first? Here's the [5-minute setup](/ai/how-to-setup-claude-code). New to skills? Start with [What is a Skill?](/ai/what-is-a-skill).
 
-## How do you download it from GitHub?
+## Can Claude watch YouTube videos?
+
+Not in the regular Claude chat on its own. It cannot pull frames and audio off a YouTube link. With a skill called watch-video in Claude Code (or Codex), yes: you paste a YouTube URL and Claude watches it frame by frame, audio included. It can see the on-screen text and the cuts, not just a transcript.
+
+## How to make Claude watch YouTube videos
+
+Install the watch-video skill from GitHub in Claude Code, run the setup wizard, then type `/watch-video` followed by the YouTube link and your question. Setup is five steps and no code. The same command works on a video file on your computer, which is how you make Claude watch videos that aren't on YouTube.
 
 The skill lives here: [github.com/jordanrendric/claude-video-vision](https://github.com/jordanrendric/claude-video-vision)
 

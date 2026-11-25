@@ -57,23 +57,15 @@ export default async function BlogIndexPage({ searchParams }: Props) {
 
       {posts.length === 0 ? (
         <p className="mt-10 rounded-lg border border-amber-200 bg-amber-50 p-4 text-amber-950">
-          No synced posts yet. With{" "}
+          No posts yet. Add MDX files to{" "}
           <code className="rounded bg-amber-100 px-1 py-0.5 text-amber-900 ring-1 ring-amber-200/80">
-            NOTION_API_KEY
+            content/blog/
           </code>{" "}
-          and{" "}
+          and list them in{" "}
           <code className="rounded bg-amber-100 px-1 py-0.5 text-amber-900 ring-1 ring-amber-200/80">
-            NOTION_BLOG_DATABASE_ID
-          </code>{" "}
-          set, run{" "}
-          <code className="rounded bg-amber-100 px-1 py-0.5 text-amber-900 ring-1 ring-amber-200/80">
-            yarn sync:blog
-          </code>{" "}
-          to export Notion pages into{" "}
-          <code className="rounded bg-amber-100 px-1 py-0.5 text-amber-900 ring-1 ring-amber-200/80">
-            content/blog/*.mdx
-          </code>{" "}
-          and refresh the list.
+            content/blog/manifest.json
+          </code>
+          .
         </p>
       ) : null}
 

@@ -10,6 +10,7 @@ tags:
   - interactive-brokers
   - beginner
 published: "2026-05-31"
+updated: "2026-11-25"
 date: "2026-05-31"
 cta: Connect IBKR and review every draft
 faq:
@@ -30,7 +31,15 @@ faq:
       more like a sharp analyst handing you a draft than a bot trading while you
       sleep. Pick based on how much autonomy you're comfortable with.
   - question: >-
-      How do I connect Interactive Brokers to Claude safely?
+      How do I connect Claude to my brokerage account?
+    answer: >-
+      It depends on the broker. Interactive Brokers has an official Claude
+      connector: Settings, Connectors, search Interactive Brokers, click
+      Connect, and log in on IBKR's own site. Robinhood works differently: you
+      add its trading MCP link and fund a separate Agentic account. Those are
+      the two I have set up guides for. This is not financial advice.
+  - question: >-
+      How do I link my IBKR account to Claude?
     answer: >-
       You need an existing IBKR account, then in Claude go to Settings →
       Connectors, find Interactive Brokers, and click Connect. You log in on
@@ -91,7 +100,9 @@ When you connect, IBKR's login screen has a Live / Paper toggle, so check which 
 
 Setup only authorizes one IBKR account at a time, so pick the one you actually want Claude to see.
 
-## How to connect your IBKR account to Claude.ai
+## How do you connect Claude to Interactive Brokers (IBKR)?
+
+Open an IBKR account if you do not have one, find Interactive Brokers under Settings, Connectors in Claude, click Connect, log in on IBKR's site, and authorize one account. Then set order tools to ask each time and start with read-only prompts.
 
 ### Step 1: Open an Interactive Brokers account (if you don't have one)
 

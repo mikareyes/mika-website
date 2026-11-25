@@ -27,7 +27,7 @@ export default async function PressIndexPage() {
       <main className={mainWide}>
         <PageHero eyebrow="✦ In the media" title="Press" subtitle="Articles, podcasts, and appearances." />
         <p className="mt-12 text-center" style={{ color: "var(--mr-muted)" }}>
-          No press items yet. Run <code>yarn sync:press</code> to pull from Notion.
+          No press items yet. Add them to <code>content/press/manifest.json</code>.
         </p>
       </main>
     );

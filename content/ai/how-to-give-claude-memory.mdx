@@ -8,43 +8,62 @@ tags:
   - setup
   - claude
 published: "2026-05-01"
+updated: "2026-11-25"
 cta: Get started
 faq:
   - question: >-
-      Does Claude remember me between conversations?
+      How do I give Claude memory?
     answer: >-
-      Not by default. Claude starts every session blank, but that's a setting
-      you can change, not a hard limit. The fastest fix is turning on Claude's
-      memory toggles under Settings → Capabilities so it saves what it learns
-      across sessions. For anything that really matters, a CLAUDE.md context
-      file is more reliable, and a full folder-based "second brain" is the
-      deepest level.
-  - question: >-
-      How do I make Claude remember my preferences?
-    answer: >-
-      Three levels, from quick to deep: turn on the in-app memory toggles and
+      Three levels, from quick to deep. Turn on the in-app memory toggles and
       add Global Instructions (5 minutes), create a CLAUDE.md context file it
-      reads at the start of every session (30–60 minutes), or build a folder
-      system it pulls from as a second brain (ongoing). You can also just say
-      "remember this" in a session to save something on the spot. Pick the level
-      that fits where you are.
+      reads at the start of every session (30 to 60 minutes), or build a folder
+      system it pulls from as a second brain (ongoing). Pick the level that
+      fits where you are and add memory to Claude from there.
   - question: >-
-      What's the most reliable way to give Claude long-term memory?
+      Where do I find Claude's memory settings?
     answer: >-
-      A context file like CLAUDE.md. Built-in memory is convenient but not fully
-      reliable for things that matter, and a file is read automatically at the
-      start of every Claude Code or Cowork session. Put your role, preferences,
-      and team context in it, and point to supplementary files like USER.md. It
-      doesn't drift or forget the way auto-memory can.
+      Go to Settings, then Capabilities. That is where the two memory toggles
+      live: "Search and reference chats" and "Generate memory from chat
+      history." Switch both on to enable memory in Claude. Your standing
+      context lives separately, in Claude Cowork under Global Instructions.
+  - question: >-
+      How do I make Claude remember previous chats?
+    answer: >-
+      Turn on "Search and reference chats" under Settings, then Capabilities.
+      Claude starts every session blank by default, and that toggle is what
+      lets it look back at your past conversations. Turn on "Generate memory
+      from chat history" too, so it saves what it learns about you across
+      sessions.
+  - question: >-
+      How do I save memory in Claude?
+    answer: >-
+      Say "remember this" in the middle of a session. Claude updates its memory
+      in real time, no settings needed. That is the simplest way to use Claude
+      memory day to day: when a preference, context, or decision comes up that
+      you want it to hold onto, tell it directly.
+  - question: >-
+      How do I make Claude forget something?
+    answer: >-
+      Review what Claude has saved about you and edit or remove the part you
+      want gone; you can do that at any time. To stop it from building new
+      memories, switch off the two toggles under Settings, then Capabilities.
+      If the thing lives in a CLAUDE.md file, delete that line from the file.
+  - question: >-
+      How do I give Claude Code memory?
+    answer: >-
+      Use a CLAUDE.md file. Claude Code reads it automatically at the start of
+      every session, so put your role, preferences, and team context in it, and
+      point to supplementary files like USER.md. It is more reliable than
+      built-in memory for things that matter, because a file doesn't drift or
+      forget the way auto-memory can.
   - question: >-
       What is a "second brain" for Claude?
     answer: >-
       It's a folder system of context files (about you, your company, your
       voice, your lessons) that Claude reads so it knows your thinking, history,
-      and work, not just remembers you. It's the deepest level and takes ongoing
-      maintenance, often kept in GitHub, Notion, or Obsidian. A weekly scheduled
-      task that proposes updates keeps it current, and it compounds: the more
-      you put in, the more useful it gets.
+      and work, not just remembers you. Nick and I keep ours on GitHub and share
+      it across our team; others use Notion or Obsidian. A weekly scheduled task
+      that proposes updates keeps it current.
 ---
 
 Someone sent a meme in a group chat about Claude never remembering who you are. Every session, you're a stranger. I couldn't relate — my Claude sessions have been remembering me for months.
@@ -54,6 +73,10 @@ Here's exactly how I set that up, from the five-minute beginner version to the f
 ---
 
 By default, Claude starts every session blank. Most people accept this as a limitation. It isn't — it's a default setting. There are a few ways to change it, and they get progressively more powerful. Pick the one that fits where you are right now.
+
+## How to turn on memory in Claude
+
+Go to Settings, then Capabilities, and switch on both toggles: "Search and reference chats" and "Generate memory from chat history." That's it. Claude now saves what it learns about you and can reference past chats across sessions, and you can review or edit what it saved at any time. Steps 1 to 3 below cover this level in detail.
 
 ---
 
